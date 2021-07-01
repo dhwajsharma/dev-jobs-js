@@ -139,6 +139,7 @@ header {
   width: 50px;
   height: 50px;
   object-fit: contain;
+  border-radius: 10px;
 }
 
 .rolename {
@@ -151,6 +152,7 @@ header {
 
 .description {
   height: 105px;
+  flex-grow: 1;
   overflow: hidden;
   font-size: 18px;
   color: #96939b;
